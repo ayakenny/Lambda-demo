@@ -1,0 +1,126 @@
+@media screen and (max-width: 768px){
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+    }
+    
+    .header {
+        background-color: #4aa181;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .header h1:hover {
+        cursor: pointer;
+    }
+    
+    .header a{
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    
+    .content {
+        margin: 20px;
+    }
+    
+    .post {
+        border: 1px solid #CCCCCC;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .post h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .post textarea {
+        width: 100%;
+        height: 100px;
+        resize: none;
+    }
+    
+    .post textarea:focus { 
+        outline: none !important;
+        border-color: #4aa181;
+     }
+    
+    .post button, #comment-button {
+        background-color: #4aa181;
+        color: black;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+    .posts h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .posts p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .comments {
+        margin-top: 10px;
+    }
+    
+    .comment {
+        border: 1px solid #CCCCCC;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .comment p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .comment h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .comment textarea {
+        width: 100%;
+        height: 50px;
+        resize: none;
+    }
+    
+    .comment button {
+        background-color: #4aa181;
+        color: #FFFFFF;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    
+    .result {
+        border: 1px solid #CCCCCC;
+        padding: 10px;
+        margin-bottom: 10px;
+        overflow: auto;
+    }
+    
+      footer {
+        display: flex;
+        position: relative;
+        bottom: 0rem;
+        justify-content: center;
+        padding: 0.3125rem;
+        background: linear-gradient(#141312,#201e1d);   
+    }
+    }
